@@ -1,0 +1,14 @@
+LIBRARY      ICQPIPE
+DATA	     MULTIPLE READWRITE PRELOAD NONSHARED
+
+EXPORTS      ICQPConfigure
+	     ICQPInitialize
+	     ICQPTerminate
+	     ICQPSystemEvent
+	     ICQPUserEvent
+	     ICQPAddConfigPage
+	     ICQPMessageChanged
+
+
+
+
